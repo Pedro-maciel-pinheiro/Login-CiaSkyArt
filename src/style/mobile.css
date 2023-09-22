@@ -1,0 +1,37 @@
+@media only screen  and (max-width: 950px){
+    .card-login {
+        width: 85%;
+    }
+}
+    
+@media only screen  and (max-width:600px){
+    .main-login{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-login > h1 {
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .login-img{
+        width: 70vw;
+        margin-top: -50%;
+    }
+
+    .logo-img{
+        width: 40vw;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}
